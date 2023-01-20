@@ -1,5 +1,5 @@
 body {
-    background-color: #202023;
+    background-color: white;
     margin: 0px;
     min-height: 100vh;
     display: flex;
@@ -9,17 +9,17 @@ h1, h2 {
     font-family: montserrat, sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #e2d8f2;
+    color: #171716;
     margin-block-start: 0;
 }
 p, li {
     font-family: muli, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #cccccf;
+    color: #171716;
 }
 i.subtitle{
-    color: #e2d8f2;
+    color: #171716;
 }
 h1.mainheader {
     font-size:xxx-large;
@@ -42,7 +42,7 @@ div.content img {
     width: 25%;
 }
 div.content a {
-    color: #ba90f5;
+    color: blue;
 }
 div.content a:link, div.content a:visited{
     text-decoration: none;
@@ -52,7 +52,7 @@ div.content a:hover, div.content a:active {
 }
 div.content a:focus {
     outline: 0;
-    color: #ffffff;
+    color: #171716;
 }
 div.big img {
     width: 30%;
@@ -94,7 +94,7 @@ body>h1 {
 header {
     overflow: hidden;
     padding: 0px;
-    background-color: #282a36;
+    background-color: #e5e4db;
     align-items: stretch;
     justify-content: space-between;
     display: flex;
@@ -115,7 +115,7 @@ header nav, header h1{
     text-align: center;
 }
 header a {
-    color: #e2d8f2;
+    color: #171716;
     text-decoration: none;
 }
 header a.menu {
@@ -143,16 +143,16 @@ header nav a {
     vertical-align: middle;
 }
 header nav a:hover, header nav a:focus {
-    background-color: #383a46;
+    background-color: #b7b6af;
     outline: 0;
 }
 
 img.whitebg {
-    background-color: #cccccf;
+    background-color: #e5e4db;
 }
 
 footer {
-    background-color: #282a36;
+    background-color: #e5e4db;
     display: flex;
     justify-content: center;
     width: 100%;
