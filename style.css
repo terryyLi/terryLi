@@ -162,6 +162,13 @@ footer {
     flex-grow: 1;
 }
 
+.project-img {
+    max-height: 300px; 
+    max-width: 300px; 
+    width: auto;
+    height: auto;
+}
+
 footer a {
     margin: auto;
     margin-left: 20px;
